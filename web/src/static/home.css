@@ -1,0 +1,115 @@
+.fundo{
+  background-color: #222;
+  color: white;
+  background-image: url('../static/capa_pg_inscricao.jpg')
+  }
+
+.box{
+  background: rgba( 56, 42, 84, 0.4 );
+  box-shadow: 0 8px 32px 0 rgb(255 207 0 / 30%);
+  backdrop-filter: blur( 6.5px );
+  -webkit-backdrop-filter: blur( 6.5px );
+  width: 500px;
+  border-radius: 20px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.btn_cadastro {
+  border: none;
+  margin-top: 10px;
+  padding: 10px;
+  margin: 0 0 0 10px;
+  font-size: 20px;
+  border-radius: 10px;
+  width: 100px;
+  background: linear-gradient(90deg, rgba(100,16,189,1) 0%, rgba(104,37,135,1) 27%, rgba(231,71,171,1) 100%);
+  background-size: 300% 300%;
+  color: white;
+  font-family: lemonmilk-bold;
+  animation: gradient 5s ease infinite;
+  transition: 0.6s;
+}
+.btn_cadastro:hover, .btn_cadastro:focus {
+  animation: gradient 5s ease infinite;
+  transition: 0.6s;
+  margin: 0 0 0 10px;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+  background: linear-gradient(90deg, rgba(100,16,189,1) 0%, rgb(150, 17, 211) 27%, rgb(240, 8, 151) 100%);
+  background-size: 300% 300%;
+  color: white;
+
+}
+
+.fonte-degrade {
+  font-weight: bold;
+  display: inline-block;
+  background-image: linear-gradient(90deg, rgb(0 137 255) 0%, rgba(231,71,220,1) 100%, rgba(0,212,255,1) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.borda_bottom_degrade {
+  border: none;
+  border-bottom: 1px solid transparent;
+  border-image: linear-gradient(90deg, rgb(0 137 255) 0%, rgba(231,71,220,1) 100%, rgba(0,212,255,1) 100%);
+  border-image-slice: 1;
+}
+
+.input_cadastro {
+  width: 80%;
+  padding: 5px;
+  font-size: 25px;
+  outline: 0;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid transparent;
+  border-image: linear-gradient(90deg, rgb(0 137 255) 0%, rgba(231,71,220,1) 100%, rgba(0,212,255,1) 100%);
+  border-image-slice: 1;
+  color: white;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.cartao {
+  width: 100%;
+  background: #080808;
+  box-shadow: 2px 6px 10px 0 rgb(158 16 189 / 20%);
+  backdrop-filter: blur( 5px );
+  -webkit-backdrop-filter: blur( 5px );
+}
+
+.head-cartao {
+  padding: 15px;
+  color: white;
+  font-size: 25px;
+}
+
+.borda_bottom_degrade {
+  border: none;
+  border-bottom: 1px solid transparent;
+  border-image: linear-gradient(90deg, rgba(255,207,0,1) 0%, rgba(231,71,220,1) 100%, rgba(0,212,255,1) 100%);
+  border-image-slice: 1;
+}
+
+.body-cartao {
+  padding: 15px;
+  color: white;
+  font-size: 20px;
+}
+.titulo {
+  text-align: center;
+}
+
+.box {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}

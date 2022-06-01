@@ -1,0 +1,1 @@
+{"giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca": 0.9010371565818787, "French bulldog": 0.0010748830391094089, "lesser panda, red panda, panda, bear cat, cat bear, Ailurus fulgens": 0.0010547797428444028, "Walker hound, Walker foxhound": 0.0009094824781641364, "soccer ball": 0.0008703505736775696}

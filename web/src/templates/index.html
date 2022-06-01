@@ -1,0 +1,17 @@
+{% extends "template.html" %} 
+{% block conteudo %}
+<div class="box">
+<form action="/teste" method="get">
+    <h1 class="fonte-degrade borda_bottom_degrade titulo">HOME</h2>
+    <img width="100%" src="{{ url_for('static', filename='AI.gif') }}" alt="synthwave gif"/>
+    <h1>{{ title }}</h1>
+    <h4>{{ subtitle }}</h4>
+    <div style="display: flex; justify-content:flex-end; margin-top: 1rem;">
+        <button type="submit" class="btn_cadastro">Teste</button>
+    </div>
+</form>
+</div>
+{% endblock %}
+
+
+
